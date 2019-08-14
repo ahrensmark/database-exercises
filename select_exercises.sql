@@ -10,7 +10,7 @@ SELECT 'The genre for Nevermind';
 SELECT genre From albums WHERE name = 'Nevermind';
 
 SELECT 'Which albums were released in the 1990s';
-SELECT * FROM albums WHERE release_date = BETWEEN 1990 AND 1999;
+-- SELECT * FROM albums WHERE release_date = BETWEEN 1990 AND 1999;
 
 SELECT 'Which albums had less than 20 million certified sales';
 SELECT * FROM albums Where sales < 20;
@@ -19,3 +19,4 @@ SELECT 'the albums with a genre of "Rock". Why do these query results not includ
 SELECT * FROM albums WHERE genre = 'Rock';
 
 
+-- mysql -u codeup_test_user -p < select_exercises.sql
