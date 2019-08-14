@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums;
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson',	'Thriller',	1982, 47.3,	'Poprock, R&B'),
        ('Eagles',	'Their Greatest Hits',	1976,	41.2, 'Country rock, soft rock, folk rock'),
@@ -31,7 +32,7 @@ VALUES ('Michael Jackson',	'Thriller',	1982, 47.3,	'Poprock, R&B'),
        ('Nirvana',	'Nevermind', 1991, 16.7, 'Grunge, alternative rock'),
        ('Pink Floyd',	'The Wall',	1979, 18.7,	'Progressive rock'),
        ('Santana',	'Supernatural',	1999, 20.5,	'Latin rock'),
-       ('Guns N'' Roses',	'Appetite for Destruction',	1987, 21.6,	'Hard rock')
+       ('Guns N'' Roses',	'Appetite for Destruction',	1987, 21.6,	'Hard rock');
 
 
 -- mysql> SELECT * FROM table name;
