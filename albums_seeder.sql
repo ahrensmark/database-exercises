@@ -36,7 +36,7 @@ VALUES ('Michael Jackson',	'Thriller',	1982, 47.3,	'Poprock, R&B'),
 
 
 -- mysql> SELECT * FROM table name;
--- mysql -u codeup_test_user -p < albums_seeder.sql
+-- mysql -u codeup_test_user -p -t < albums_seeder.sql
 
 
 
