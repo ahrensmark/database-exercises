@@ -13,4 +13,4 @@ SELECT 'Albums by "Whitney Houston" (...or maybe an artist of your choice)' as '
 DELETE FROM albums WHERE id = 30;
 
 
--- mysql -u codeup_test_user -p < delete_exercises.sql
+-- mysql -u codeup_test_user -p -t < delete_exercises.sql

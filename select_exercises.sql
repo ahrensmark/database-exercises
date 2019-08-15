@@ -10,7 +10,7 @@ SELECT 'The genre for Nevermind' as "";
 SELECT genre From albums WHERE name = 'Nevermind';
 
 SELECT 'Which albums were released in the 1990s' as "";
-SELECT * FROM albums WHERE release_date BETWEEN 1990 AND 1999;
+SELECT * FROM albums WHERE release_date BETWEEN 1990- AND 1999;
 
 SELECT 'Which albums had less than 20 million certified sales' as"";
 SELECT * FROM albums Where sales < 20;
